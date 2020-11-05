@@ -1,4 +1,78 @@
 ---
+title: Requirements Engineering Assignment 2
+school: Curtin University, Perth WA
+unit: CMPE2002
+name: Connor Kuljis
+id: 19495138
+
+date: 2020-11-06
+
+example: Case Study 1 Report - "Customer Line Up"
+
+---
+/newpage
+# Report
+
+# Introduction
+Software applications can provide new solutions to problems existing in the world today.
+The case study "Customer Line Up" is a project to help solve the issue of large queues that
+violate coronavirus social distancing in essential businesses.
+
+
+# Methodology
+This document will cover; the suitable requirement elicitation techniques to 
+analyze the requirements, and the relevant modeling diagrams to show aspects 
+of the system. 
+
+The components of this document include:
+* A (2) page report
+* Appendix A - UML Diagrams and i* Models
+* Appendix B - Software Requirement Specification (SRS)
+* Appendix C - Wireframe/Mockups
+
+There are a wide variety of requirement elicitation (RE) techniques that suit 
+the requirements gathering process for the “CLup: Customer Lineup” project. 
+Requirements engineering often has no “right way” when designing requirements 
+for a software system, and such requirements may change over time. Requirement 
+elicitation methods include; introspection, background reading, hard data, 
+interviews, surveys, meetings, focus groups, brainstorm/JAD, prototypes, 
+ethnomethodology, participant observation and knowledge elicitation.
+
+When gathering requirements, it is often important to do some background reading 
+on the domain to see if there exists any similar systems within that domain. 
+This may be in the form of researching related applications. Upon researching online, 
+a highly relevant example is the appointment
+booking website ‘HotDoc’ - https://www.hotdoc.com.au/ which allows users to book 
+appointments for general practitioners around Australia. This 'hotdoc' system
+overlaps with the key covid-19 related issues 'CLup' is trying to solve. Such as
+incorporating a time slot booking system, mobile check-ins and 'place in queue'.
+The advantage of this background reading is that it helps define business objectives
+and how a similar approach could be inspired and adapted to a grocery store.
+
+
+To further gather requirements, a common methodology is a brainstorm.
+A brainstorm allows analysts to come up with potential ideas and characterise topics for discussion. For example - 
+who are the potential stakeholders of the product? What is the ‘problem’ that the 
+project is aiming to solve? By using introspection, some potential users
+of the product may be - the users themselves, employees, managers, maintanence ect.
+
+
+
+
+# Discussion Section
+* difficulties
+* limitations on analysis
+* interesting lessons learned 
+* etc
+
+# Conclusion
+* summarize
+* brief assessment
+
+# Appendix A Models
+
+---
+# Appendix B SRS
 title: Software Requirements Specification for **Customer Line Up**
 author: Connor Kuljis
 version: 1.0
@@ -196,6 +270,7 @@ The software will interface with a wide variety of devices.
 
 # 6. Other 
 
+# Appendix C Wireframe/Mockups
 
 
 
