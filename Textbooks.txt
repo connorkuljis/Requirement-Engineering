@@ -1,0 +1,12 @@
+ Klaus Pohl, Requirements Engineering - Fundamentals, Principles, and Techniques. Springer.
+
+ Axel van Lamsweerde, Requirements Engineering: From System Goals to UML Models to Software Specifications, Wiley. l Martin Fowler, UML Distilled: A Brief Guide to the Standard Modeling Language, 3rd Edition, AddisonWesley.
+
+ Ian Sommerville and Pete Sawyer, Requirements Engineering: A good practice guide, John Wiley & Sons, USA.
+
+ Suzanne and James Robertson, Mastering the Requirements Process, 2nd Edition, Addison-Wesley.
+
+ Laszek A. Maciaszek, Requirements Analysis and System Design, 2nd Edition, Addison-Wesley.
+
+ Roger Pressman, Software Engineering: A Practitioner’s Approach, 6th Edition, McGraw Hill.
+
