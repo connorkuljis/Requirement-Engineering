@@ -56,21 +56,22 @@ who are the potential stakeholders of the product? What is the ‘problem’ tha
 project is aiming to solve? By using introspection, some potential users
 of the product may be - the users themselves, employees, managers, maintanence ect.
 
-
-
-
-# Discussion Section
-* difficulties
-* limitations on analysis
-* interesting lessons learned 
-* etc
+# Discussion
+To reiterate there is often no such "best way" when gathering requirements. 
+When writing requirements, many audiences are featured, with varying technical and
+non-techinal backgrounds; this can make communicating functions into specifications rather difficult.
+Good specifiactions are complete, unambiguous and consistent.
+A limitation on the analysis is that it is succeptable to self
+bias and a lack of external opinions. Because of the absence of feedback from others
+an inherit bias may have impacted the overall design.
 
 # Conclusion
-* summarize
-* brief assessment
 
+/newpage
 # Appendix A Models
-
+![](RE_UML.png)
+![](i star.png)
+/newpage
 ---
 # Appendix B SRS
 title: Software Requirements Specification for **Customer Line Up**
@@ -187,39 +188,60 @@ Developers must conform to the AWS Well-Architected Framework Whitepaper where p
 
 # 3. System Features
 
-# 3.1 Create Account
+# 3.1 The system must update and vertify the database when new accounts are created
 * Description: Customer and Employee Account creation. Medium priority.
 * Stimulus/Response Sequences: User opens the application and selects "Create new account" option.
 * Functional Requirement:
-    - REQ-01: User should be able to create an account
-    - REQ-02: User information should be validated via database calls
+    - REQ-01: Users should be able to create an account
+    - REQ-02: User information should be validated and error checked via database calls
 
-# 3.2 Log-in 
+# 3.2 The system should update and vertify the database when signing in accounts
 * Description: Customer and Employee Account log-in. Medium priority.
 * Stimulus/Response Sequences: User logs in as user OR guest
 * Functional Requirement:
     - REQ-03: Users can sign in as guest
     - REQ-04: Users can log into a valid user account
 
-# 3.3 Queue Functionality
-* Description: 
-* Stimulus/Response Sequences: 
+# 3.3 The system should allow users to join a queue
+* Description: Customers/Employee enter the queue. High Priority
+* Stimulus/Response Sequences: User selects the "Join Queue Option"
 * Functional Requirement:
+    - REQ-05: Users can join a queue which will notify them when it is their turn
+    - REQ-06: The system must generate a QR code for users who join a queue
+    - REQ-07: Users can leave the queue
 
-# 3.4 Booking System
-* Description: 
-* Stimulus/Response Sequences: 
+# 3.4 The system should provide booking appointments
+* Description: Users can select timeslots for designated appointments. Low priority
+* Stimulus/Response Sequences: User selects the "Book Appointment Option"
 * Functional Requirement:
+    - REQ-08: System should have a timeslot booking function
+    - REQ-09: The system must generate a QR code for users who place a booking
+    - REQ-10: Users can cancel a booking
+    - REQ-11: Users must be notified of thier bookings
+    - REQ-12: Users can note the type, purpose and duration of their appointment
+    - REQ-13: The system must record/log appointments for reporting
 
-# 3.5 Store Location
-* Description: 
-* Stimulus/Response Sequences: 
+# 3.5 The system should allow users to find and designate a store location
+* Description: Users can set their local store preference
+* Stimulus/Response Sequences: Users selects the "Find Store Search"
 * Functional Requirement:
+    - REQ-14: Users can search for a nearby store by current location
+    - REQ-15: Users can search for a nearby store by postcode
+    - REQ-16: Users can search for a nearby store by address
+    - REQ-17: The system must record a users selected location
 
-# 3.6 QR Code Generation
-* Description: 
-* Stimulus/Response Sequences: 
+# 3.6 The system must generate QR Codes
+* Description: QR Code which acts verifies entrance to the sotre
+* Stimulus/Response Sequences: Acts upon queue or booking
 * Functional Requirement:
+    - REQ-18: The system by able to view the QR Code
+
+# 3.7 The system must allow employees to scan QR Codes
+* Description: employees scan customer QR codes to update the database
+* Stimulus/Response Sequences: Employee uses camera to scan QR code on app
+* Functional Requirement:
+    - REQ-19: The system must provide QR scanning features only for employees
+    - REQ-20: The system must update the database and verify codes.
 
 # 4. External Interface Requirements
 
@@ -269,8 +291,14 @@ The software will interface with a wide variety of devices.
     - Flexibility and Testability: system must be able to roll back to previous version as a failsafe (CI/CD).
 
 # 6. Other 
+Assertions: The application is a web and mobile based platform. Managers may want to edit opening hours through the application. Instead of having seperate accountsfor employees, they can download the app and create QR codes via guest.1
+
 
 # Appendix C Wireframe/Mockups
+![](Wireframe.png)
+![](qr.png)
+![](desktop.png)
+
 
 
 
