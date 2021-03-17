@@ -6,7 +6,7 @@ Requirements from the customer are often vague and change over time (the custome
 
 
 Learned in this unit:
-* Methodoly and application of suitable requirement elicitation techniques
-* Relevant modeling diagrams to show aspects of the system.
+* Methodology and application of suitable requirement elicitation techniques
+* Relevant modeling diagrams to show aspects of the system. (UML/Activity Diagrams/iStar)
 
 **Conclusion:** In the future as someone who writes software, clear requirements can have a 10x effect on how quick it takes to get the work done - thus the I can see why in industry - most of the time is spent in meetings, rather than head-down coding sessions (a programmers dream).
